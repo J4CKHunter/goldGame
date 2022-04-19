@@ -52,3 +52,16 @@ ismiyle oluşturulur. bu dosyaları açarak dilediğiniz oyuncunun hangi turda
 hangi hamleleri yaptığını, tur sonu ve başı puanını, anlık konumunu,hedef belirleyip belirlemediğini,
 hedef belirlediyse konumunu herhangi bir altını alıp almadığını ve oyun sonundaki özet ekranında 
 o oyuncu için buluan bilgileri içeren notları görebilirsiniz.
+
+
+### example screenshots from game
+[<img src="https://raw.githubusercontent.com/J4CKHunter/goldGame/main/Screenshot_1.png" width="500"/>](Screenshot_1.png)
+[<img src="https://raw.githubusercontent.com/J4CKHunter/goldGame/main/Screenshot_2.png" width="500"/>](Screenshot_2.png)
+[<img src="https://raw.githubusercontent.com/J4CKHunter/goldGame/main/Screenshot_4.png" width="500"/>](Screenshot_4.png)
+[<img src="https://raw.githubusercontent.com/J4CKHunter/goldGame/main/Screenshot_8.png" width="500"/>](Screenshot_8.png)
+[<img src="https://raw.githubusercontent.com/J4CKHunter/goldGame/main/Screenshot_9.png" width="500"/>](Screenshot_9.png)
+[<img src="https://raw.githubusercontent.com/J4CKHunter/goldGame/main/Screenshot_12.png" width="500"/>](Screenshot_12.png)
+[<img src="https://raw.githubusercontent.com/J4CKHunter/goldGame/main/Screenshot_13.png" width="500"/>](Screenshot_13.png)
+
+
+
