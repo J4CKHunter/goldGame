@@ -1,7 +1,14 @@
 # goldGame
+
 a gold collecting game, 4 bots with different searching algorithms
 
+
+
 * README - tr
+
+Projede gerçekleştirilmesi istenenleri [dökümantasyon dosyasında](https://github.com/J4CKHunter/goldGame/blob/main/yazlab_1_1.pdf) bulabilirsiniz.
+
+Projede gerçekleştirilen isterler ile ilgili detaylı açıklamalar [proje raporunun](https://github.com/J4CKHunter/goldGame/blob/main/rapor_180202050.pdf) içerisindedir.
 
 oyunu çalıştırmak için : 
 1. proje dosyalarının bulunduğu rar dosyasını çıkarınız ve içindeki klasörü açınız.
