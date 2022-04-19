@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #C5CAE9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.erdemnayin.game.SettingsScreenController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="53.0" prefWidth="405.0" text="enter the board's dimensions" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tfWidht" alignment="CENTER" focusColor="#673ab7" promptText="widht" />
+            <JFXTextField fx:id="tfHeight" alignment="CENTER" focusColor="#673ab7" promptText="height" />
+            <Label alignment="CENTER" prefHeight="53.0" prefWidth="400.0" text="enter the percentage of gold on the board" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tfGoldPercentage" alignment="CENTER" focusColor="#673ab7" prefWidth="400.0" promptText="gold percentage" />
+            <JFXTextField fx:id="tfHiddenGoldPercentage" alignment="CENTER" focusColor="#673ab7" promptText="hidden gold percentage" />
+         </children>
+      </VBox>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+         <children>
+            <Label alignment="CENTER" prefHeight="75.0" prefWidth="400.0" text="enter the starting gold quantity" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tfGoldQuantity" alignment="CENTER" focusColor="#673ab7" prefHeight="24.0" prefWidth="400.0" promptText="gold" />
+            <Label alignment="CENTER" prefHeight="46.0" prefWidth="400.0" text="enter the number of steps in every round" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tfNumberOfSteps" alignment="CENTER" focusColor="#673ab7" prefHeight="54.0" prefWidth="400.0" promptText="steps" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="CENTER" prefHeight="107.0" prefWidth="400.0" text="PLAYER A" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tf_A_stepCost" alignment="CENTER" focusColor="#673ab7" promptText="every step cost" />
+            <JFXTextField fx:id="tf_A_targetingCost" alignment="CENTER" focusColor="#673ab7" promptText="targeting cost" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="CENTER" prefHeight="107.0" prefWidth="400.0" text="PLAYER B" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tf_B_stepCost" alignment="CENTER" focusColor="#673ab7" prefWidth="400.0" promptText="every step cost" />
+            <JFXTextField fx:id="tf_B_targetingCost" alignment="CENTER" focusColor="#673ab7" promptText="targeting cost" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+         <children>
+            <Label alignment="CENTER" prefHeight="75.0" prefWidth="400.0" text="PLAYER C" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tf_C_stepCost" alignment="CENTER" focusColor="#673ab7" promptText="every step cost" />
+            <JFXTextField fx:id="tf_C_targetingCost" alignment="CENTER" focusColor="#673ab7" promptText="targeting cost" />
+            <HBox alignment="BOTTOM_RIGHT" prefHeight="75.0" prefWidth="400.0">
+               <children>
+                  <JFXButton fx:id="saveButton" alignment="CENTER" contentDisplay="CENTER" onAction="#saveButtonClicked" prefHeight="63.0" prefWidth="200.0" style="-fx-background-color: #4CAF50;" text="Save" textFill="WHITE">
+                     <font>
+                        <Font name="Microsoft New Tai Lue" size="20.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Label alignment="CENTER" prefHeight="75.0" prefWidth="400.0" text="PLAYER D" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft New Tai Lue" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="tf_D_stepCost" alignment="CENTER" focusColor="#673ab7" promptText="every step cost" />
+            <JFXTextField fx:id="tf_D_targetingCost" alignment="CENTER" focusColor="#673ab7" prefHeight="23.0" prefWidth="400.0" promptText="targeting cost" />
+            <HBox alignment="BOTTOM_CENTER" prefHeight="75.0" prefWidth="400.0">
+               <children>
+                  <JFXButton fx:id="startButton" onAction="#buttonClicked" prefHeight="63.0" prefWidth="200.0" style="-fx-background-color: #673AB7;" text="Start" textFill="WHITE">
+                     <font>
+                        <Font name="Microsoft New Tai Lue" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="backButton" alignment="CENTER" contentDisplay="CENTER" onAction="#buttonClicked" prefHeight="63.0" prefWidth="200.0" style="-fx-background-color: #2196F3;" text="Back" textFill="WHITE">
+                     <font>
+                        <Font name="Microsoft New Tai Lue" size="20.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</GridPane>

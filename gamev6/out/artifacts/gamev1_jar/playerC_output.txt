@@ -1,0 +1,25 @@
+playerC yeni yaratýldý. Target yok.
+playerC yeni yaratildi, puan : 200
+
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 200
+target yoktu, belirlendi x : 0.0 y : 640.0   2129137316
+target belirlendikten sonra puan : 185
+
+
+player konum x: 0.0 y : 760.0
+
+player konum x: 0.0 y : 720.0
+
+player konum x: 0.0 y : 680.0
+
+altýn alýndý.eklenecek puan : 15 oyuncunun puaný : 170
+puan eklendi, oyuncunun puaný : 185
+
+playerC score 185
+playerC konum x: 0.0 y : 640.0
+
+
+---------------turn bitti----------------

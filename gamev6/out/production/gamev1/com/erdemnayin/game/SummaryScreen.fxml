@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #C5CAE9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.erdemnayin.game.SummaryScreenController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="122.0" prefWidth="178.0" style="-fx-background-color: #d50000;" text="PLAYER A" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="193.0" prefWidth="329.0" style="-fx-background-color: #00C853;" text="PLAYER B" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="176.0" prefWidth="381.0" style="-fx-background-color: #2962FF;" text="PLAYER C" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="237.0" prefWidth="332.0" style="-fx-background-color: #607D8B;" text="PLAYER D" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="5">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="208.0" prefWidth="355.0" style="-fx-background-color: #673AB7;" text="Final Gold Points" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="87.0" prefWidth="169.0" style="-fx-background-color: #2196F3;" text="Collected Gold Points" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="201.0" prefWidth="284.0" style="-fx-background-color: #673AB7;" text="Total Cost" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="164.0" prefWidth="229.0" style="-fx-background-color: #2196F3;" text="Total Number Of Steps" textAlignment="CENTER" textFill="WHITE" wrapText="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAFinalGold" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #d50000;" text="15" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelACollected" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #d50000;" text="15" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelATotalCost" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #d50000;" text="1212" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelATotalSteps" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #d50000;" text="1212" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelBFinalGold" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #00C853;" text="1" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelBCollected" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #00C853;" text="0" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelBTotalCost" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #00C853;" text="12" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelBTotalSteps" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #00C853;" text="1212" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCFinalGold" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #2962FF;" text="4" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCCollected" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #2962FF;" text="1" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCTotalCost" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #2962FF;" text="2" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCTotalSteps" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #2962FF;" text="3" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDFinalGold" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #607D8B;" text="5" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDCollected" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #607D8B;" text="4" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDTotalCost" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #607D8B;" text="5" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelDTotalSteps" alignment="CENTER" contentDisplay="CENTER" prefHeight="205.0" prefWidth="306.0" style="-fx-background-color: #607D8B;" text="4" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="5">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>

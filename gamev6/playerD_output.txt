@@ -1,0 +1,267 @@
+playerD yeni yaratıldı. Target yok.
+playerD yeni yaratildi, puan : 200
+
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 200
+target yoktu, belirlendi x : 760.0 y : 760.0   2129336448
+target belirlendikten sonra puan : 180
+
+
+player konum x: 760.0 y : 760.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 180
+puan eklendi, oyuncunun puanı : 195
+
+playerD score 195
+playerD konum x: 760.0 y : 760.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 195
+target yoktu, belirlendi x : 600.0 y : 760.0   1938706314
+target belirlendikten sonra puan : 175
+
+
+player konum x: 760.0 y : 760.0
+
+altın alındı.eklenecek puan : 10 oyuncunun puanı : 170
+puan eklendi, oyuncunun puanı : 180
+
+player konum x: 720.0 y : 760.0
+
+player konum x: 680.0 y : 760.0
+
+playerD score 170
+playerD konum x: 640.0 y : 760.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+player konum x: 640.0 y : 760.0
+
+altın alındı.eklenecek puan : 20 oyuncunun puanı : 165
+puan eklendi, oyuncunun puanı : 185
+
+playerD score 185
+playerD konum x: 600.0 y : 760.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 185
+target yoktu, belirlendi x : 560.0 y : 720.0   954357202
+target belirlendikten sonra puan : 165
+
+
+player konum x: 600.0 y : 760.0
+
+player konum x: 560.0 y : 760.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 155
+puan eklendi, oyuncunun puanı : 170
+
+playerD score 170
+playerD konum x: 560.0 y : 720.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 170
+target yoktu, belirlendi x : 480.0 y : 720.0   1301243188
+target belirlendikten sonra puan : 150
+
+
+player konum x: 560.0 y : 720.0
+
+player konum x: 520.0 y : 720.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 140
+puan eklendi, oyuncunun puanı : 155
+
+playerD score 155
+playerD konum x: 480.0 y : 720.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 155
+target yoktu, belirlendi x : 480.0 y : 760.0   1556869522
+target belirlendikten sonra puan : 135
+
+
+player konum x: 480.0 y : 720.0
+
+altın alındı.eklenecek puan : 10 oyuncunun puanı : 130
+puan eklendi, oyuncunun puanı : 140
+
+playerD score 140
+playerD konum x: 480.0 y : 760.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 140
+target yoktu, belirlendi x : 360.0 y : 720.0   985102191
+target belirlendikten sonra puan : 120
+
+
+player konum x: 480.0 y : 760.0
+
+player konum x: 440.0 y : 760.0
+
+player konum x: 400.0 y : 760.0
+
+playerD score 105
+playerD konum x: 400.0 y : 720.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+player konum x: 400.0 y : 720.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 100
+puan eklendi, oyuncunun puanı : 115
+
+playerD score 115
+playerD konum x: 360.0 y : 720.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 115
+target yoktu, belirlendi x : 400.0 y : 640.0   1860723115
+target belirlendikten sonra puan : 95
+
+
+player konum x: 360.0 y : 720.0
+
+player konum x: 400.0 y : 720.0
+
+player konum x: 400.0 y : 680.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 80
+puan eklendi, oyuncunun puanı : 95
+
+playerD score 95
+playerD konum x: 400.0 y : 640.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 95
+target yoktu, belirlendi x : 400.0 y : 520.0   400556678
+target belirlendikten sonra puan : 75
+
+
+player konum x: 400.0 y : 640.0
+
+player konum x: 400.0 y : 600.0
+
+player konum x: 400.0 y : 560.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 60
+puan eklendi, oyuncunun puanı : 75
+
+playerD score 75
+playerD konum x: 400.0 y : 520.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 75
+target yoktu, belirlendi x : 360.0 y : 520.0   887530091
+target belirlendikten sonra puan : 55
+
+
+player konum x: 400.0 y : 520.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 50
+puan eklendi, oyuncunun puanı : 65
+
+playerD score 65
+playerD konum x: 360.0 y : 520.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 65
+target yoktu, belirlendi x : 360.0 y : 400.0   1985159455
+target belirlendikten sonra puan : 45
+
+
+player konum x: 360.0 y : 520.0
+
+player konum x: 360.0 y : 480.0
+
+player konum x: 360.0 y : 440.0
+
+altın alındı.eklenecek puan : 15 oyuncunun puanı : 30
+puan eklendi, oyuncunun puanı : 45
+
+playerD score 45
+playerD konum x: 360.0 y : 400.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 45
+target yoktu, belirlendi x : 400.0 y : 320.0   1343105194
+target belirlendikten sonra puan : 25
+
+
+player konum x: 360.0 y : 400.0
+
+player konum x: 360.0 y : 360.0
+
+player konum x: 400.0 y : 360.0
+
+altın alındı.eklenecek puan : 10 oyuncunun puanı : 10
+puan eklendi, oyuncunun puanı : 20
+
+playerD score 20
+playerD konum x: 400.0 y : 320.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 20
+target yoktu, belirlendi x : 400.0 y : 280.0   1390560485
+target belirlendikten sonra puan : 0
+
+
+
+---------------turn bitti----------------
+
+final puanı D: 0
+final toplam adim sayisi D: 26
+final collected gold points D : 170
+final total costed gold points D: 370

@@ -1,0 +1,40 @@
+playerA yeni yaratýldý. Target yok.
+playerA yeni yaratildi, puan : 200
+
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 200
+target yoktu, belirlendi x : 0.0 y : 40.0   149169344
+target belirlendikten sonra puan : 195
+
+
+player konum x: 0.0 y : 0.0
+
+altýn alýndý.eklenecek puan : 20 oyuncunun puaný : 190
+puan eklendi, oyuncunun puaný : 210
+
+playerA score 210
+player konum x: 0.0 y : 40.0
+
+
+---------------turn bitti----------------
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 210
+target yoktu, belirlendi x : 160.0 y : 40.0   1139165258
+target belirlendikten sonra puan : 205
+
+
+player konum x: 0.0 y : 40.0
+
+player konum x: 40.0 y : 40.0
+
+player konum x: 80.0 y : 40.0
+
+playerA score 190
+player konum x: 120.0 y : 40.0
+
+
+---------------turn bitti----------------

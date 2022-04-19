@@ -1,0 +1,21 @@
+playerB yeni yaratýldý. Target yok.
+playerB yeni yaratildi, puan : 200
+
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 200
+target yoktu, belirlendi x : 720.0 y : 0.0   1533043636
+target belirlendikten sonra puan : 190
+
+
+player konum x: 760.0 y : 0.0
+
+altýn alýndý.eklenecek puan : 20 oyuncunun puaný : 185
+puan eklendi, oyuncunun puaný : 205
+
+playerB score 205
+playerB konum x: 720.0 y : 0.0
+
+
+---------------turn bitti----------------

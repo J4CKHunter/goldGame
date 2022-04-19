@@ -1,0 +1,21 @@
+playerD yeni yaratýldý. Target yok.
+playerD yeni yaratildi, puan : 200
+
+---------------turn basladi----------------
+
+
+target belirlenmeden önce puan : 200
+target yoktu, belirlendi x : 760.0 y : 720.0   979420960
+target belirlendikten sonra puan : 180
+
+
+player konum x: 760.0 y : 760.0
+
+altýn alýndý.eklenecek puan : 10 oyuncunun puaný : 175
+puan eklendi, oyuncunun puaný : 185
+
+playerD score 185
+playerD konum x: 760.0 y : 720.0
+
+
+---------------turn bitti----------------
